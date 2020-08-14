@@ -2,7 +2,8 @@
 A tool to synchronize the clipboards between computers in LAN / 局域网内电脑之间剪贴板同步工具 
 
 ## 使用说明
-首先电脑上需要具有 JRE / JDK 才可使用该工具, 对此不再赘述.
+首先电脑上需要具有 JRE / JDK 才可使用该工具, 对此不再赘述, 使用时直接使用项目根目录下的 `clipboard-sync.jar` 即可.
+
 ##### 剪贴板单向同步, 即从 A 电脑 同步到 B 电脑, A 电脑启动服务端, B 电脑启动客户端
 1. 启动剪贴板服务端：`java -jar clipboard-sync.jar --server --listen 5000`
 2. 启动剪贴板客户端：`java -jar clipboard-sync.jar --client --connect-host 192.168.1.A --connect-port 5000`
