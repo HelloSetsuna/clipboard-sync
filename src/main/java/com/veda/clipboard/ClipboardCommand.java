@@ -7,6 +7,7 @@ package com.veda.clipboard;
 public class ClipboardCommand {
     public static void main(String[] args) {
         System.out.println("Veda Clipboard Synchronize Tool v1.0 - Derick.Jin 20200814");
+        System.out.println("GitHub: https://github.com/HelloSetsuna/clipboard-sync");
         System.out.println("==========================================================");
         System.out.println("* --server \n\tStart as ClipboardServer, other ClipboardClient could synchronize clipboard From server.");
         System.out.println("* --client \n\tStart as ClipboardClient, connect to ClipboardServer and synchronize clipboard to this computer");
