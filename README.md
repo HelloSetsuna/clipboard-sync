@@ -1,5 +1,5 @@
 # clipboard-sync
-A tool to synchronize the clipboards between computers in LAN / 局域网内电脑之间剪贴板同步工具 
+A tool to synchronize the text clipboards between computers in LAN / 局域网内电脑之间文本剪贴板同步工具 
 
 ## 使用说明
 首先电脑上需要具有 JRE / JDK 才可使用该工具, 对此不再赘述, 使用时直接使用项目根目录下的 `clipboard-sync.jar` 即可.
